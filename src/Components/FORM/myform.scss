@@ -1,0 +1,108 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+
+.form{
+  justify-content: center;
+
+
+}
+
+.input{
+    width: 100%;
+    text-indent: 20px;
+    border-radius: 5px;
+    height: 2.5rem;
+    padding-left: 10px;
+    &:hover{
+      border: 3px solid rgb(238, 212, 132);;  
+      outline: none;
+    }
+}
+.input4{
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 5px;
+  text-indent: 20px;
+  &:hover{
+    border: 3px solid rgb(238, 212, 132);;  
+    outline: none;
+  } 
+}
+.fild3{
+    margin-top: 1rem !important; 
+}
+.finalfild{
+    margin-top: 3rem !important; 
+    text-align:center;
+
+}
+.name{
+    font-size: 15px;
+    font-weight: 400 !important;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    @media screen and (min-width: 100px) and (max-width: 992px) {
+      font-size: 14px !important;
+    }
+}
+:placeholder-shown{
+    text-indent: 10px;
+}
+.error{
+    color: rgb(119, 19, 19) !important;
+    font-size: medium;
+    margin-left: 5px;
+}
+   .sub{
+     cursor: pointer;
+     width:10rem;
+     height: 4rem;
+     border-radius: 50px !important;
+     background-color: rgba(255, 209, 94, 0.705);
+     border: none;
+     color: rgb(33, 33, 33);
+     font-size: 1.3rem;
+     &:hover{
+      background-color: white;
+      border:3px solid rgba(255, 209, 94, 0.705);
+     }
+    }
+  
+   @media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+    .form {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+      .name{
+        font-size: 1rem;
+        margin-right: 0rem;
+        margin-bottom: 5px;
+      }
+     
+    }
+    @media screen and (min-width: 0px) and (max-width: 767px){
+       .name{
+        font-size: 12px;
+       } 
+       .error{
+        font-size: 10px;
+       }
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   

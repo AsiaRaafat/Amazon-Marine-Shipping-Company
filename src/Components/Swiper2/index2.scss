@@ -1,0 +1,42 @@
+.main5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap !important;
+}
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.h55{
+    font-weight: bold !important;
+}
+.p55{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.img55{
+    width: 90% !important;
+    height: 70vh !important;
+    object-fit: contain !important;
+    position: center !important;
+    repeat: no-repeat !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .textdiv{
+        order: 2 ;
+        }
+    .img55{
+        width: 100% !important ;
+        height: 60vh !important ;
+        object-fit: cover !important ;
+        position: center !important ;
+        repeat: no-repeat !important ;
+    }
+}

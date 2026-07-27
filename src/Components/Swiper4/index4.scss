@@ -1,0 +1,28 @@
+p1{
+    color: white;
+    font-size: small;
+}
+p2{
+    font-weight: bold !important;
+    color: white !important;
+}
+.img2{
+    filter: brightness(60%) !important; 
+} 
+.cardlink{
+    &:hover{
+        .span2{
+            margin-left: 1rem;
+            transition-duration: 0.3s;
+            transition: ease-in-out;
+        }
+    }
+}
+.p22{
+    color: white !important; 
+}
+.titlecard4{
+    @media screen and (min-width: 100px) and (max-width: 767px) {
+        width: 13rem !important;
+    }
+}

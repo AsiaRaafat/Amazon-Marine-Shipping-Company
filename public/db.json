@@ -1,0 +1,172 @@
+{
+
+  "cargoTypes": [
+    {
+      "id": 1,
+      "title": "Air Freight",
+      "description": "Fast international shipping for urgent and high-value goods.",
+      "image": "/images/air cargo.jpg",
+      "icona":"/images/departure.png"
+    },
+    {
+      "id": 2,
+      "title": "Sea Freight",
+      "description": "Cost-effective shipping for large and heavy cargo worldwide.",
+      "image": "/images/Porte-container_shutterstock-1024x576.jpg",
+      "icona":"/images/ship (1).png"
+    },
+    {
+      "id": 3,
+      "title": "Road Transport",
+      "description": "Reliable door-to-door delivery across cities and countries.",
+      "image": "/images/road-freight-cargo-service-500x500.webp" ,
+      "icona":"/images/shipping.png"
+    },
+    {
+      "id": 4,
+      "title": "Rail Freight",
+      "description": "Efficient transportation for bulk goods over long distances.",
+      "image": "/images/istockphoto-153865140-612x612.jpg",
+      "icona":"/images/old-train.png"
+    },
+    {
+      "id": 5,
+      "title": "Express Delivery",
+      "description": "Same-day and next-day delivery for urgent shipments.",
+      "image": "/images/package-delivery-man-courier-delivering-box-to-woman-home-female-receiving-parcel-outdoors-signing-documents-high-resolution-124917274.webp",
+      "icona":"/images/office-building.png"
+    },
+    {
+      "id": 6,
+      "title": "Cold Chain Cargo",
+      "description": "Temperature-controlled transportation for food and medicine.",
+      "image": "/images/D76CA057-2749-4EDE-92D4-CB21ED01D068.jpg",
+      "icona":"/images/ship (1).png"
+    }
+  ]
+ ,
+  "products": [
+    {
+      "id": 1,
+      "title": "food cargos",
+      "description": "Premium-quality wheat grains carefully packed and transported to preserve freshness, ensuring safe delivery for food processing and agricultural industries.",
+      "image": "/images/cargo-ship-unloading-corn-port-global-food-supply-chain-large-piles-kernels-being-unloaded-bustling-highlighting-353385182.webp"
+    },
+    {
+      "id": 2,
+      "title": "Agricole cargos",
+      "description": "Fresh, handpicked apples carefully packed to preserve their crisp texture and natural sweetness during transportation.",
+      "image": "/images/cargo2.webp"
+    },
+    {
+      "id": 3,
+      "title": "High-quality canned goods",
+      "description": "High-quality canned vegetables carefully packaged to preserve freshness, flavor, and nutritional value during transportation.",
+      "image": "/images/images (3).jpg"
+    },
+    {
+      "id": 4,
+      "title": "Electronics",
+      "description": "High-quality electronic devices carefully packed with protective materials to ensure safe, secure, and damage-free transportation.",
+      "image": "/images/images (5).jpg"
+    },
+    {
+      "id": 5,
+      "title": "Clothes shipping",
+      "description": "Fashion apparel carefully packed and transported to ensure garments arrive clean, wrinkle-free, and in excellent condition.",
+      "image": "/images/images (6).jpg"
+    }
+  ],
+  "shipments": [
+  {
+    "id": 1,
+    "title": "Electronics Shipment",
+    "description": "Shipment of laptops and accessories",
+    "image": "https://i.rtings.com/assets/pages/8qL8CfPV/best-windows-laptop-medium.jpg?format=auto"
+  },
+  {
+    "id": 2,
+    "title": "Clothing Shipment",
+    "description": "Shipment of winter clothing for children and adults",
+    "image": "https://pivazh.com/wp-content/uploads/2023/12/Packing_clothes_for_shipping-1300x680-1.png"
+  },
+  {
+    "id": 3,
+    "title": "Book Shipment",
+    "description": "Shipment of educational and literary books for students",
+    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400"
+  },
+  {
+    "id": 4,
+    "title": "Food Shipment",
+    "description": "Shipment of canned and preserved food with proper storage conditions",
+    "image": "https://lh3.googleusercontent.com/VZSjEQk3X6qkuVGKXDQ5iuoc0RVdgMFtn2VezzrYgfcL5B4cxlrcEze8v8V11FegC4AgoBZh9FlpmGHGPOs3irlb_pFdfXDXaZYhk_ZS0Vd8hgcdqDvF0Ad2C7GiyBBK2W5A0faI"
+  },
+  {
+    "id": 5,
+    "title": "Household Goods Shipment",
+    "description": "Shipment of kitchenware and various household items",
+    "image": "https://invest.midanalmal.com/wp-content/uploads/2023/09/%D9%85%D8%B3%D8%AA%D9%88%D8%B1%D8%AF-%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9-%D8%AC%D9%85%D9%84%D8%A93-630x300.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Footwear Shipment",
+    "description": "Shipment of men's and women's footwear",
+    "image": "https://www.careofcarl.com/bilder/artiklar/zoom/26635111r_3.jpg?m=1710510178"
+  },
+  {
+    "id": 7,
+    "title": "Sports Equipment Shipment",
+    "description": "Shipment of sports balls, equipment, and sportswear",
+    "image": "https://cdn.salla.sa/WlAjDX/56c45583-86dd-483f-b805-47b52eec7bcb-673.66211962225x1000-ulLjeQ2H7bovWTn7xgUq6Wwooxt8rF00YH1gWfbX.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Smartphone Shipment",
+    "description": "Shipment of the latest smartphones with accessories",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+  }
+]
+,
+  "operations": [
+    {
+      "id": 1,
+      "expectedDelivery": "24 Jul 2026",
+      "title": "Shipment Created",
+      "receiver": "Ahmed Mohamed",
+      "body": "Your package has been received and is being prepared for shipping."
+    },
+    {
+      "id": 2,
+      "expectedDelivery": "26 Jul 2026",
+      "title": "Out for Delivery",
+      "receiver": "Sara Ali",
+      "body": "Your shipment is out for delivery."
+    },
+    {
+      "id": 3,
+      "expectedDelivery": "28 Jul 2026",
+      "title": "Delivered",
+      "receiver": "Omar Hassan",
+      "body": "Your package has been delivered successfully."
+    }
+    ,
+    {
+      "id": 4,
+      "expectedDelivery": "28 Jul 2026",
+      "title": "Delivered",
+      "receiver": "Omar Hassan",
+      "body": "Your package has been delivered successfully."
+    }
+    ,
+    {
+      "id": 5,
+      "expectedDelivery": "28 Jul 2026",
+      "title": "Delivered",
+      "receiver": "Omar Hassan",
+      "body": "Your package has been delivered successfully."
+    }
+  ]
+}
+
+  

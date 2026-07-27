@@ -1,0 +1,60 @@
+.card3{
+     width: 25rem !important; 
+     height: 28rem !important;
+}
+
+.cardimg{
+      width: 100% !important;
+      height: 10rem !important;
+     
+}
+
+.card-text {
+     display: -webkit-box !important;
+     -webkit-line-clamp: 3 !important;
+     -webkit-box-orient: vertical !important; 
+     overflow: hidden !important;
+     line-clamp: 3 !important;
+     line-height: 2rem !important;
+     box-orient: vertical !important;
+   }
+.slick-prev:before{
+     font-weight: 100 !important;
+     color:rgba(128, 128, 128, 0.672) !important;
+     font-size: 1.5rem !important;
+     position: absolute;
+     right: 0px !important;    
+}
+.slick-next:before{
+     font-weight: 100 !important;
+     color:black !important;
+     font-size: 1.5rem !important;
+     position: absolute;
+     left: 0px !important;
+
+}
+.slick-dots li button:before{
+     font-size: 10px !important;
+     color:  rgb(243, 196, 54) !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+     .card-text{
+          // display: block !important;
+          font-size: 14px !important;
+          -webkit-line-clamp: 2 !important;
+          margin-bottom: 2rem !important;
+     }
+     .card3{
+          width:100% !important;
+          height:fit-content !important;
+     }
+}
+@media screen and (min-width: 1025px) and (max-width: 1400px){
+     .card3{
+          width: 20rem !important;
+     }
+}
+
+
+

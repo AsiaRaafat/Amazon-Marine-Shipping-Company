@@ -1,0 +1,31 @@
+<!doctype html>
+<html >
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="article" />
+    <meta name="robots" content="index , follow " />  
+    <meta name="description" content="شركة شحن موثوقة تقدم خدمات شحن محلية ودولية سريعة وآمنة  بأسعار تنافسية "/>
+    <link rel="canonical" href="https://AsiaRaafat.github.io/shippinig-company-project" />  
+    <title>Amazon Marine</title>
+  </head>
+  <body>
+    <div id="root"></div>
+      <script type="module" src="/src/main.jsx"></script>
+    <script>
+      const userLanguage = localStorage.getItem("lang");
+
+      const htmlElement = document.documentElement;
+      
+      // const root1 = document.getElementById("root");
+      htmlElement.lang = userLanguage;
+      if (userLanguage === 'ar' || userLanguage === 'he') {
+        htmlElement.dir = "rtl"; 
+        htmlElement.lang="ar";// اتجاه من اليمين إلى اليسار) للغة العربية  
+         } else {
+         htmlElement.dir = 'ltr'; // اتجاه من اليسار إلى اليمين (للغات الأخرى)
+         }
+  </script>
+  </body>
+</html>

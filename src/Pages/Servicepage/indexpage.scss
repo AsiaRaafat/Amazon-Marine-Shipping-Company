@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.mains{
+    overflow:hidden;
+}
+.servicemain{
+position: relative;
+text-align: center;
+justify-content: center !important;
+align-items: center !important;
+}
+.serviceimage{
+    display: block;
+    margin: 0 auto;
+    height: 77vh;
+    width: 100%;
+    object-fit: contain !important;
+    position: center;
+    repeat: no-repeat !important;
+}
+
+.serviceoverlay{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: black;
+  padding: 20px;
+  width: 50%;
+  font-size: 29px;
+  font-weight: 700; 
+}
+.servicecontent{
+    text-align: center;
+}
+p{
+    font-size: medium;
+    font-weight: 500 !important;
+    unicode-bidi: isolate;
+}
+
+.serviceimg{
+    object-fit: contain!important;
+    height: 70vh !important;
+    width: 100%;
+    position: center !important;
+    repeat: no-repeat;
+}
+.servicetext{
+ display: flex;
+ flex-direction: column;
+ margin-top: 2rem;
+ align-items: center;
+ padding-right: 2rem;
+}
+.servicelist{
+    height: 70vh;
+}
+.servicecon{
+    margin-top: 5rem !important;
+}
+
+
+
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+    .serviceimage{
+        height: 50vh;
+    }
+    .hservice{
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .servicelist{
+        height: fit-content !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+      .serviceimage{
+        height: 50vh;
+    }
+   .hservice{
+    font-size: 30px !important;
+    text-align: center !important;
+   }
+}
