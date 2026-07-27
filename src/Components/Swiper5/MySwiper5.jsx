@@ -41,7 +41,7 @@ export default function MySwiper5() {
 
   const settings = {
     
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
